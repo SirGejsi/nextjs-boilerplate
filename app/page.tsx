@@ -22,7 +22,7 @@ export default function Home() {
         <div className="flex flex-col gap-4">
           {/* First row of buttons (Questions 1 to 4) */}
           <div className="flex gap-4">
-            <Link href="/questions/question1/page">
+            <Link href="/questions/question1">
               <a className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5">
                 Question 1
               </a>
