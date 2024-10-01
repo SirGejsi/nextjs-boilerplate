@@ -22,22 +22,22 @@ export default function Home() {
         <div className="flex flex-col gap-4">
           {/* First row of buttons (Questions 1 to 4) */}
           <div className="flex gap-4">
-            <Link href="/question1">
+            <Link href="/questions/question1/page">
               <a className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5">
                 Question 1
               </a>
             </Link>
-            <Link href="/question2">
+            <Link href="/questions/question2/page">
               <a className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5">
                 Question 2
               </a>
             </Link>
-            <Link href="/question3">
+            <Link href="/questions/question3/page">
               <a className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5">
                 Question 3
               </a>
             </Link>
-            <Link href="/question4">
+            <Link href="/questions/question4/page">
               <a className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5">
                 Question 4
               </a>
@@ -46,22 +46,22 @@ export default function Home() {
 
           {/* Second row of buttons (Questions 5 to 8) */}
           <div className="flex gap-4">
-            <Link href="/question5">
+            <Link href="/questions/question5/page">
               <a className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5">
                 Question 5
               </a>
             </Link>
-            <Link href="/question6">
+            <Link href="/questions/question6/page">
               <a className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5">
                 Question 6
               </a>
             </Link>
-            <Link href="/question7">
+            <Link href="/questions/question7/page">
               <a className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5">
                 Question 7
               </a>
             </Link>
-            <Link href="/question8">
+            <Link href="/questions/question8/page">
               <a className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5">
                 Question 8
               </a>
