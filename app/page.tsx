@@ -76,10 +76,10 @@ export default function Home() {
         >
           <Image
             aria-hidden
-            src="https://upload.wikimedia.org/wikipedia/commons/5/51/LinkedIn_Logo_2013.svg"
+            src="https://en.m.wikipedia.org/wiki/File:LinkedIn_logo_initials.png"
             alt="IN icon"
-            width={16}
-            height={16}
+            width={24} // Adjust the width as needed
+            height={16} // Adjust the height as needed
           />
           <span className="sr-only">LinkedIn</span> {/* Screen reader text for accessibility */}
         </a>
