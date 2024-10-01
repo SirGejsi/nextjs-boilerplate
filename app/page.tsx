@@ -67,10 +67,10 @@ export default function Home() {
         </div>
       </main>
 
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
+      <footer className="row-start-3 flex justify-center gap-6 flex-wrap items-center">
         <a
           className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg"
+          href="https://www.linkedin.com/in/gejsi-halili-a4aa78221/"
           target="_blank"
           rel="noopener noreferrer"
         >
