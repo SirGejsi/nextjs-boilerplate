@@ -76,12 +76,12 @@ export default function Home() {
         >
           <Image
             aria-hidden
-            src="https://upload.wikimedia.org/wikipedia/commons/0/01/LinkedIn_Logo.svg"
-            alt="LinkedIn icon"
+            src="https://upload.wikimedia.org/wikipedia/commons/5/51/LinkedIn_Logo_2013.svg"
+            alt="IN icon"
             width={16}
             height={16}
           />
-          LinkedIn
+          <span className="sr-only">LinkedIn</span> {/* Screen reader text for accessibility */}
         </a>
       </footer>
     </div>
