@@ -27,17 +27,17 @@ export default function Home() {
                 Question 1
               </a>
             </Link>
-            <Link href="/questions/question2/page">
+            <Link href="/questions/question2">
               <a className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5">
                 Question 2
               </a>
             </Link>
-            <Link href="/questions/question3/page">
+            <Link href="/questions/question3">
               <a className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5">
                 Question 3
               </a>
             </Link>
-            <Link href="/questions/question4/page">
+            <Link href="/questions/question4">
               <a className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5">
                 Question 4
               </a>
@@ -46,22 +46,22 @@ export default function Home() {
 
           {/* Second row of buttons (Questions 5 to 8) */}
           <div className="flex gap-4">
-            <Link href="/questions/question5/page">
+            <Link href="/questions/question5">
               <a className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5">
                 Question 5
               </a>
             </Link>
-            <Link href="/questions/question6/page">
+            <Link href="/questions/question6">
               <a className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5">
                 Question 6
               </a>
             </Link>
-            <Link href="/questions/question7/page">
+            <Link href="/questions/question7">
               <a className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5">
                 Question 7
               </a>
             </Link>
-            <Link href="/questions/question8/page">
+            <Link href="/questions/question8">
               <a className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5">
                 Question 8
               </a>
