@@ -19,20 +19,54 @@ export default function Home() {
         </div>
 
         {/* Flex container for buttons */}
-        <div className="flex gap-4 items-center">
-          {/* Question 1 button */}
-          <Link href="/question1">
-            <a className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5">
-              Question 1
-            </a>
-          </Link>
+        <div className="flex flex-col gap-4">
+          {/* First row of buttons (Questions 1 to 4) */}
+          <div className="flex gap-4">
+            <Link href="/question1">
+              <a className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5">
+                Question 1
+              </a>
+            </Link>
+            <Link href="/question2">
+              <a className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5">
+                Question 2
+              </a>
+            </Link>
+            <Link href="/question3">
+              <a className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5">
+                Question 3
+              </a>
+            </Link>
+            <Link href="/question4">
+              <a className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5">
+                Question 4
+              </a>
+            </Link>
+          </div>
 
-          {/* Question 2 button (replacing Deploy now) */}
-          <Link href="/question2">
-            <a className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5">
-              Question 2
-            </a>
-          </Link>
+          {/* Second row of buttons (Questions 5 to 8) */}
+          <div className="flex gap-4">
+            <Link href="/question5">
+              <a className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5">
+                Question 5
+              </a>
+            </Link>
+            <Link href="/question6">
+              <a className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5">
+                Question 6
+              </a>
+            </Link>
+            <Link href="/question7">
+              <a className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5">
+                Question 7
+              </a>
+            </Link>
+            <Link href="/question8">
+              <a className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5">
+                Question 8
+              </a>
+            </Link>
+          </div>
         </div>
       </main>
 
