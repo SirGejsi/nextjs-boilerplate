@@ -9,7 +9,7 @@ export default function Home() {
         {/* Centered and inverted Next.js logo */}
         <div className="flex justify-center">
           <Image
-            className="dark:invert"
+            className="invert"
             src="https://nextjs.org/icons/next.svg"
             alt="Next.js logo"
             width={180}
