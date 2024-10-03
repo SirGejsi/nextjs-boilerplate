@@ -20,9 +20,10 @@ export default function About() {
       </header>
 
       <main className="flex flex-col items-center">
-        <h2 className="text-2xl font-bold mt-12">Question 1</h2>
+        <h2 className="text-2xl font-bold mt-12">Question 2</h2>
         <p className="text-lg mt-2 italic">
-          Please compare the similarities and differences between Next.js and React.
+          A customer has reached out asking, “When should I choose to use Edge Functions, Serverless Functions, or Edge Middleware with Vercel?” 
+          Write a reply to the customer.
         </p>
         
         <p className="text-lg mt-4 max-w-2xl text-center">
