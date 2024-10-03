@@ -11,7 +11,7 @@ export default function Email() {
         </p>
         <br />
         <p className="text-lg">
-          Deciding between Edge Functions, Serverless Functions, or Edge Middleware on Vercel really depends on the use case and performance needs of your application. Here's a breakdown to help you decide:
+          Deciding between Edge Functions, Serverless Functions, or Edge Middleware on Vercel really depends on the use case and performance needs of your application. Here&apos;s a breakdown to help you decide:
         </p>
         <br />
         <ol className="list-decimal list-inside text-lg">
@@ -24,7 +24,7 @@ export default function Email() {
           </li>
           <br />
           <li>
-            Serverless Functions are more suited for backend logic that doesn’t require the super-fast response time of the edge. If you're handling API requests, heavy computations, or tasks that don’t need to be executed near the user (like connecting to a database), Serverless Functions work well. They’re cost-effective and scale automatically.
+            Serverless Functions are more suited for backend logic that doesn’t require the super-fast response time of the edge. If you&apos;re handling API requests, heavy computations, or tasks that don&apos;t need to be executed near the user (like connecting to a database), Serverless Functions work well. They’re cost-effective and scale automatically.
             <br />
             <a href="https://vercel.com/docs/pricing/serverless-functions" className="text-blue-600 underline">
               Please find additional information here - https://vercel.com/docs/pricing/serverless-functions
