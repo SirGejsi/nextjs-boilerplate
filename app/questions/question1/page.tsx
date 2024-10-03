@@ -3,6 +3,10 @@ import Image from "next/image";
 export default function Question1() {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center text-center relative">
+      {/* Header Section */}
+      <div className="absolute top-5 left-5">
+        <h1 className="text-xl font-bold">Digital Success Take Home Assignment</h1>
+      </div>
       <div className="absolute top-5 right-5">
         <Image
           className="invert" // This applies the CSS filter to invert colors
@@ -13,7 +17,9 @@ export default function Question1() {
           priority
         />
       </div>
-      <h2 className="text-2xl font-bold">Question 1</h2>
+
+      {/* Question Section */}
+      <h2 className="text-2xl font-bold mt-12">Question 1</h2>
       <p className="text-lg mt-2 italic">
         Please compare the similarities and differences between Next.js and React.
       </p>
