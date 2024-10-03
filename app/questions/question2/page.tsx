@@ -21,7 +21,7 @@ export default function Page() {
           </div>
         </header>
 
-        <main className="flex flex-col items-center">
+        <main className="flex flex-col items-center mb-4"> {/* Adjust margin here */}
           <h2 className="text-2xl font-bold mt-12">Question 1</h2>
           <p className="text-lg mt-2 italic">
             Please compare the similarities and differences between Next.js and React.
