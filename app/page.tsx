@@ -8,13 +8,15 @@ export default function Home() {
       <header className="flex justify-between items-center w-full">
         <div className="text-xl font-bold">Digital Success Take Home Assignment</div>
         <div className="flex items-center">
+          {/* "By" text */}
+          <span className="mr-2">By</span>
           {/* Vercel logo */}
           <Image
             className="invert"
             src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Vercel_logo_black.svg"
             alt="Vercel Logo"
-            width={100} // Set width as needed
-            height={40} // Set height as needed
+            width={100} // Adjust the width as needed
+            height={24} // Adjust the height as needed
           />
         </div>
       </header>
@@ -92,7 +94,7 @@ export default function Home() {
           <Image
             aria-hidden
             src="https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg"
-            alt="LinkedIn icon"
+            alt="LinkedIn Icon"
             width={16}
             height={16}
           />
