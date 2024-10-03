@@ -20,9 +20,9 @@ export default function About() {
       </header>
 
       <main className="flex flex-col items-center">
-        <h2 className="text-2xl font-bold mt-12">Question 2</h2>
+        <h2 className="text-2xl font-bold mt-12">Question 3</h2>
         <p className="text-lg mt-2 italic">
-          A customer has reached out asking, “When should I choose to use Edge Functions, Serverless Functions, or Edge Middleware with Vercel?” Write a reply to the customer.
+          A customer has a project on Vercel and they want to know about best practices when it comes to redirects. Write a reply to the customer.
         </p>
 
         {/* Email Component */}
