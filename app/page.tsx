@@ -59,4 +59,46 @@ export default function Home() {
           {/* Row for Questions 5 to 8 */}
           <div className="flex gap-4 justify-center">
             <Link href="/questions/question5">
-              <a className="rounded-full border bo
+              <a className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-12 w-40">
+                Question 5
+              </a>
+            </Link>
+            <Link href="/questions/question6">
+              <a className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-12 w-40">
+                Question 6
+              </a>
+            </Link>
+            <Link href="/questions/question7">
+              <a className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-12 w-40">
+                Question 7
+              </a>
+            </Link>
+            <Link href="/questions/question8">
+              <a className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-12 w-40">
+                Question 8
+              </a>
+            </Link>
+          </div>
+        </div>
+      </main>
+
+      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
+        <a
+          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
+          href="https://www.linkedin.com/in/gejsi-halili-a4aa78221/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Image
+            aria-hidden
+            src="https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg"
+            alt="LinkedIn icon"
+            width={16}
+            height={16}
+          />
+          LinkedIn →
+        </a>
+      </footer>
+    </div>
+  );
+}
