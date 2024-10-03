@@ -1,4 +1,4 @@
-import Image from 'next/image'; // Ensure you import the Image component
+import Image from "next/image";
 
 export default function About() {
   return (
@@ -18,7 +18,13 @@ export default function About() {
           />
         </div>
       </header>
-      {/* Add any other content or components here */}
+
+      <main className="flex flex-col items-center">
+        <h2 className="text-2xl font-bold mt-12">Question 1</h2>
+        <p className="text-lg mt-2 italic">
+          Please compare the similarities and differences between Next.js and React.
+        </p>
+      </main>
     </div>
   );
 }
