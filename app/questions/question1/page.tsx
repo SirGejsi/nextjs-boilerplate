@@ -1,8 +1,7 @@
 export default function Question1() {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center text-center">
-      <h1 className="text-2xl font-bold">Welcome to Question 1</h1>
-      <h2 className="text-xl font-semibold mt-4">Question 1</h2>
+      <h2 className="text-2xl font-bold">Question 1</h2>
       <p className="text-lg mt-2 italic">
         Please compare the similarities and differences between Next.js and React.
       </p>
