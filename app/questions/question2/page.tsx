@@ -1,36 +1,7 @@
-import Image from "next/image";
-
-export default function Page() {
+export default function Email() {
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center p-8">
-      {/* About Component */}
-      <div className="grid grid-rows-[auto_1fr_auto] items-center justify-items-center min-h-screen p-8 pb-20 gap-8 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-        <header className="flex justify-between items-center w-full mb-4"> {/* Reduced bottom margin */}
-          <div className="text-xl font-bold">Digital Success Take Home Assignment</div>
-          <div className="flex items-center">
-            {/* "By" text */}
-            <span className="mr-2">By</span>
-            {/* Vercel logo */}
-            <Image
-              className="invert"
-              src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Vercel_logo_black.svg"
-              alt="Vercel Logo"
-              width={100}
-              height={24}
-            />
-          </div>
-        </header>
-
-        <main className="flex flex-col items-center">
-          <h2 className="text-2xl font-bold mb-2">Question 1</h2> {/* Reduced bottom margin */}
-          <p className="text-lg mt-1 italic">
-            Please compare the similarities and differences between Next.js and React.
-          </p>
-        </main>
-      </div>
-
-      {/* Email Component */}
-      <div className="bg-white border border-gray-300 rounded-lg shadow-md p-6 max-w-2xl mt-4"> {/* Added top margin */}
+    <div className="min-h-screen flex items-center justify-center p-8">
+      <div className="bg-white border border-gray-300 rounded-lg shadow-md p-6 max-w-2xl">
         <p className="text-sm text-black"> {/* Changed to text-sm for smaller font */}
           Hi [Customer Name],
         </p>
