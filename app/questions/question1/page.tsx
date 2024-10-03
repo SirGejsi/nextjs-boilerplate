@@ -33,7 +33,7 @@ export default function About() {
         </p>
 
         <p className="text-sm text-black leading-relaxed mt-4 max-w-2xl text-left">
-          • Serverless Functions are more suited for backend logic that doesn’t require the super-fast response time of the edge. If you're handling API requests, heavy computations, or tasks that don’t need to be executed near the user (like connecting to a database), Serverless Functions work well. They’re cost-effective and scale automatically.
+          • Serverless Functions are more suited for backend logic that doesn’t require the super-fast response time of the edge. If you&apos;re handling API requests, heavy computations, or tasks that don’t need to be executed near the user (like connecting to a database), Serverless Functions work well. They’re cost-effective and scale automatically.
           <br />
           Please find additional information here - <a href="https://vercel.com/docs/pricing/serverless-functions" className="text-blue-600 underline">https://vercel.com/docs/pricing/serverless-functions</a>
         </p>
