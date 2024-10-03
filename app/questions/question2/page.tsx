@@ -22,7 +22,7 @@ export default function About() {
       <main className="flex flex-col items-center">
         <h2 className="text-2xl font-bold mt-12">Question 2</h2>
         <p className="text-lg mt-2 italic">
-          A customer has asked when to use Edge Functions, Serverless Functions, or Edge Middleware with Vercel. Please write a reply to the customer.
+          A customer has reached out asking, “When should I choose to use Edge Functions, Serverless Functions, or Edge Middleware with Vercel?” Write a reply to the customer.
         </p>
 
         {/* Email Component */}
