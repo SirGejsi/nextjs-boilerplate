@@ -20,9 +20,11 @@ export default function About() {
       </header>
 
       <main className="flex flex-col items-center">
-        <h2 className="text-2xl font-bold mt-12">Question 3</h2>
+        <h2 className="text-2xl font-bold mt-12">Question 4</h2>
         <p className="text-lg mt-2 italic">
-          A customer has a project on Vercel and they want to know about best practices when it comes to redirects. Write a reply to the customer.
+          A customer who has been sold Vercel through a reseller has reached out to
+          the team to ask about the product. Can you give a brief 2-5 sentence
+          introduction to Vercel to showcase what Vercel does?
         </p>
 
         {/* Email Component */}
