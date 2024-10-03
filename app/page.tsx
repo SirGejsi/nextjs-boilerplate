@@ -4,6 +4,21 @@ import Link from "next/link";
 export default function Home() {
   return (
     <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
+      {/* Add a div for the header section */}
+      <header className="flex justify-between items-center w-full">
+        <div className="text-xl font-bold">Digital Success Take Home Assignment Example</div>
+        <div className="flex items-center">
+          {/* Vercel logo */}
+          <Image
+            className="invert"
+            src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Vercel_logo_black.svg"
+            alt="Vercel Logo"
+            width={100} // Set width as needed
+            height={40} // Set height as needed
+          />
+        </div>
+      </header>
+
       <main className="flex flex-col gap-8 row-start-2 items-center">
         <div className="flex justify-center">
           <Image
@@ -44,46 +59,4 @@ export default function Home() {
           {/* Row for Questions 5 to 8 */}
           <div className="flex gap-4 justify-center">
             <Link href="/questions/question5">
-              <a className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-12 w-40">
-                Question 5
-              </a>
-            </Link>
-            <Link href="/questions/question6">
-              <a className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-12 w-40">
-                Question 6
-              </a>
-            </Link>
-            <Link href="/questions/question7">
-              <a className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-12 w-40">
-                Question 7
-              </a>
-            </Link>
-            <Link href="/questions/question8">
-              <a className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-12 w-40">
-                Question 8
-              </a>
-            </Link>
-          </div>
-        </div>
-      </main>
-
-      <footer className="row-start-3 flex justify-center gap-6 flex-wrap items-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://www.linkedin.com/in/gejsi-halili-a4aa78221/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg"
-            alt="LinkedIn icon"
-            width={16}
-            height={16}
-          />
-          LinkedIn →
-        </a>
-      </footer>
-    </div>
-  );
-}
+              <a className="rounded-full border bo
