@@ -31,6 +31,29 @@ export default function About() {
           <br /><br />
           Another key thing is how they handle rendering. With React, it’s mostly client-side rendering, which means your content is loaded in the browser and requires some extra work to get things like SEO and performance right. But with Next.js, you can use server-side rendering, static site generation, or even a mix, so it’s super optimized for faster loading and better SEO.
         </p>
+        <p className="text-lg mt-4 max-w-2xl text-center">
+          Hi [Customer Name],
+          <br /><br />
+          Thank you for reaching out!
+          <br /><br />
+          Deciding between Edge Functions, Serverless Functions, or Edge Middleware on Vercel really depends on the use case and performance needs of your application. Here's a breakdown to help you decide:
+          <br /><br />
+            1. Edge Functions are ideal when you need ultra-low latency and want to deliver content closer to your users. Since they run on Vercel’s global Edge Network, they’re great for tasks like dynamic personalization or user authentication that need to be super-fast and close to the end-user. If performance at the edge is critical, Edge Functions are your go-to.
+          <br /><br />
+            Please find additional information here - <a href="https://vercel.com/docs/pricing/edge-functions" className="text-blue-600 underline">https://vercel.com/docs/pricing/edge-functions</a>
+          <br /><br />
+            2. Serverless Functions are more suited for backend logic that doesn’t require the super-fast response time of the edge. If you're handling API requests, heavy computations, or tasks that don’t need to be executed near the user (like connecting to a database), Serverless Functions work well. They’re cost-effective and scale automatically.
+          <br /><br />
+            Please find additional information here - <a href="https://vercel.com/docs/pricing/serverless-functions" className="text-blue-600 underline">https://vercel.com/docs/pricing/serverless-functions</a>
+          <br /><br />
+            3. Edge Middleware allows you to modify requests and responses before they reach a function or a page. It’s best used for things like routing, custom authentication, or geolocation-based redirects. Middleware can inspect requests and make decisions on the fly without adding much delay, offering flexibility while keeping performance high.
+          <br /><br />
+            Please find additional information here - <a href="https://vercel.com/docs/pricing/edge-middleware" className="text-blue-600 underline">https://vercel.com/docs/pricing/edge-middleware</a>
+          <br /><br />
+          Kind Regards,
+          <br />
+          Gejsi
+        </p>
       </main>
     </div>
   );
