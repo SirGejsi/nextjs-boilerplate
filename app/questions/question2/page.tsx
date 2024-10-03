@@ -45,7 +45,7 @@ export default function About() {
               <div>
                 Edge Functions are ideal when you need ultra-low latency and want to deliver content closer to your users. Since they run on Vercel’s global Edge Network, they’re great for tasks like dynamic personalization or user authentication that need to be super-fast and close to the end-user. If performance at the edge is critical, Edge Functions are your go-to.
                 <br />
-                Please find additional information here - <a href="https://vercel.com/docs/pricing/edge-functions" className="text-blue-600 underline">https://vercel.com/docs/pricing/edge-functions</a>
+                Please find additional information here - <a href="https://vercel.com/docs/pricing/edge-functions" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline">https://vercel.com/docs/pricing/edge-functions</a>
               </div>
             </li>
             <li className="flex mb-2">
@@ -53,7 +53,7 @@ export default function About() {
               <div>
                 Serverless Functions are more suited for backend logic that doesn’t require the super-fast response time of the edge. If you&apos;re handling API requests, heavy computations, or tasks that don&apos;t need to be executed near the user (like connecting to a database), Serverless Functions work well. They’re cost-effective and scale automatically.
                 <br />
-                Please find additional information here - <a href="https://vercel.com/docs/pricing/serverless-functions" className="text-blue-600 underline">https://vercel.com/docs/pricing/serverless-functions</a>
+                Please find additional information here - <a href="https://vercel.com/docs/pricing/serverless-functions" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline">https://vercel.com/docs/pricing/serverless-functions</a>
               </div>
             </li>
             <li className="flex mb-2">
@@ -61,7 +61,7 @@ export default function About() {
               <div>
                 Edge Middleware allows you to modify requests and responses before they reach a function or a page. It’s best used for things like routing, custom authentication, or geolocation-based redirects. Middleware can inspect requests and make decisions on the fly without adding much delay, offering flexibility while keeping performance high.
                 <br />
-                Please find additional information here - <a href="https://vercel.com/docs/pricing/edge-middleware" className="text-blue-600 underline">https://vercel.com/docs/pricing/edge-middleware</a>
+                Please find additional information here - <a href="https://vercel.com/docs/pricing/edge-middleware" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline">https://vercel.com/docs/pricing/edge-middleware</a>
               </div>
             </li>
           </ul>
