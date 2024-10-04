@@ -43,15 +43,17 @@ export default function About() {
             In general, here are a few strategies to help mitigate costs related to Fast Data Transfer and Fast Origin Transfer on Vercel:
           </p>
           <br />
-          <p className="text-sm text-black">
-            1. Optimize Image Delivery: Leverage Vercel’s built-in Image Optimization to compress and serve images more efficiently, reducing transfer costs.
-          </p>
-          <p className="text-sm text-black">
-            2. Reduce Payload Sizes: For Fast Origin Transfer, ensure server responses only include essential data. Implement caching mechanisms to reduce repeated requests.
-          </p>
-          <p className="text-sm text-black">
-            3. Analyse Data Usage: Use Vercel’s monitoring tools to identify high traffic paths or projects. This will help spot and optimize the most resource-consuming endpoints.
-          </p>
+          <ul className="list-disc list-inside">
+            <li className="text-sm text-black">
+              Optimize Image Delivery: Leverage Vercel’s built-in Image Optimization to compress and serve images more efficiently, reducing transfer costs.
+            </li>
+            <li className="text-sm text-black">
+              Reduce Payload Sizes: For Fast Origin Transfer, ensure server responses only include essential data. Implement caching mechanisms to reduce repeated requests.
+            </li>
+            <li className="text-sm text-black">
+              Analyse Data Usage: Use Vercel’s monitoring tools to identify high traffic paths or projects. This will help spot and optimize the most resource-consuming endpoints.
+            </li>
+          </ul>
           <br />
           <p className="text-sm text-black">
             For more details, you can review Vercel’s guidance on Fast Data Transfer and Fast Origin Transfer.
