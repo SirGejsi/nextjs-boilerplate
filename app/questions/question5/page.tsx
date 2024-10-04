@@ -36,7 +36,7 @@ export default function About() {
           </p>
           <br />
           <p className="text-sm text-black">
-            Could you provide a bit more detail about what exactly you'd like to monitor and log within your project? Vercel offers a variety of tools to cover both areas. For logging, integrations like Datadog, New Relic, and Sentry can help track runtime errors, performance issues, and more. In terms of monitoring, Vercel allows you to visualize metrics like traffic and error rates and set up custom metrics using third-party integrations. Let me know what specifics you're looking for, and I can guide you further!
+            Could you provide a bit more detail about what exactly you&apos;d like to monitor and log within your project? Vercel offers a variety of tools to cover both areas. For logging, integrations like Datadog, New Relic, and Sentry can help track runtime errors, performance issues, and more. In terms of monitoring, Vercel allows you to visualize metrics like traffic and error rates and set up custom metrics using third-party integrations. Let me know what specifics you&apos;re looking for, and I can guide you further!
           </p>
           <br />
           <p className="text-sm text-black">
