@@ -20,9 +20,9 @@ export default function About() {
       </header>
 
       <main className="flex flex-col items-center">
-        <h2 className="text-2xl font-bold mt-12">Question 4</h2>
+        <h2 className="text-2xl font-bold mt-12">Question 5</h2>
         <p className="text-lg mt-2 italic">
-          A customer who has been sold Vercel through a reseller has reached out to the team to ask about the product. Can you give a brief 2-5 sentence introduction to Vercel to showcase what Vercel does?
+          A customer is just getting started with Vercel and has questions about recommended options for third-party integrations for Monitoring or Logging. How would you respond to the customer?
         </p>
 
         {/* Email Component */}
