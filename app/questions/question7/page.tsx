@@ -1,4 +1,5 @@
 import Image from "next/image";
+import "./About.css"; // Assuming you create a CSS file for the styles.
 
 export default function About() {
   return (
@@ -87,4 +88,10 @@ export default function About() {
       </main>
     </div>
   );
+}
+
+// About.css
+a {
+  color: blue;
+  text-decoration: underline;
 }
