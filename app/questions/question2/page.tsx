@@ -43,7 +43,7 @@ export default function About() {
             <li className="flex mb-2">
               <span className="list-disc mr-2">•</span>
               <div>
-                <strong>Edge Functions</strong> are ideal when you need ultra-low latency and want to deliver content closer to your users. Since they run on Vercel’s global Edge Network, they’re great for tasks like dynamic personalization or user authentication that need to be super-fast and close to the end-user. If performance at the edge is critical, <strong>Edge Functions</strong> are your go-to.
+                <strong>Edge Functions</strong> are ideal when you need ultra-low latency and want to deliver content closer to your users. Since they run on Vercel’s global Edge Network, they’re great for tasks like dynamic personalization or user authentication that need to be super-fast and close to the end-user. If performance at the edge is critical, Edge Functions are your go-to.
                 <br />
                 Please find additional information here - <a href="https://vercel.com/docs/pricing/edge-functions" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline">https://vercel.com/docs/pricing/edge-functions</a>
               </div>
@@ -51,7 +51,7 @@ export default function About() {
             <li className="flex mb-2">
               <span className="list-disc mr-2">•</span>
               <div>
-                <strong>Serverless Functions</strong> are more suited for backend logic that doesn’t require the super-fast response time of the edge. If you&apos;re handling API requests, heavy computations, or tasks that don&apos;t need to be executed near the user (like connecting to a database), <strong>Serverless Functions</strong> work well. They’re cost-effective and scale automatically.
+                <strong>Serverless Functions</strong> are more suited for backend logic that doesn’t require the super-fast response time of the edge. If you&apos;re handling API requests, heavy computations, or tasks that don&apos;t need to be executed near the user (like connecting to a database), Serverless Functions work well. They’re cost-effective and scale automatically.
                 <br />
                 Please find additional information here - <a href="https://vercel.com/docs/pricing/serverless-functions" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline">https://vercel.com/docs/pricing/serverless-functions</a>
               </div>
