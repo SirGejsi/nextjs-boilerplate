@@ -1,5 +1,4 @@
 import Image from "next/image";
-import "./About.css"; // Assuming you create a CSS file for the styles.
 
 export default function About() {
   return (
@@ -33,50 +32,54 @@ export default function About() {
           </p>
           <br />
           <p className="text-sm text-black">
-            These are the steps I would take to ensure information is relayed to the CISO and to address any of their needs as they migrate to the Enterprise version of Vercel:
+            Thank you for reaching out!
+          </p>
+          <br />
+          <p className="text-sm text-black">
+            These are the steps I would take to ensure information is relayed to the CISO and to address any of their needs as they migrate to the Enterprise version of Vercel.
           </p>
           <br />
           <ul className="list-none pl-5 text-sm text-black">
             <li className="flex mb-2">
               <span className="list-disc mr-2">•</span>
               <div>
-                <strong>Presentation Overview:</strong> Provide a presentation outlining key Enterprise features and a roadmap of their customer journey with Vercel.
+                <b>Presentation Overview</b>: Provide a presentation outlining key Enterprise features and a roadmap of their customer journey with Vercel.
               </div>
             </li>
             <li className="flex mb-2">
               <span className="list-disc mr-2">•</span>
               <div>
-                <strong>Customer Support & Resources:</strong> Explain support from the CSM team and highlight available resources for a smooth transition.
+                <b>Customer Support & Resources</b>: Explain support from the CSM team and highlight available resources for a smooth transition.
               </div>
             </li>
             <li className="flex mb-2">
               <span className="list-disc mr-2">•</span>
               <div>
-                <strong>Security Products:</strong> Present Vercel’s security offerings (e.g., <a href="https://vercel.com/docs/security/secure-compute" target="_blank" rel="noopener noreferrer">Secure Compute</a>).
+                <b>Security Products</b>: Present Vercel’s security offerings (e.g., Secure Compute).
               </div>
             </li>
             <li className="flex mb-2">
               <span className="list-disc mr-2">•</span>
               <div>
-                <strong>Enterprise Features:</strong> Clarify new Enterprise-only features and the benefits they bring.
+                <b>Enterprise Features</b>: Clarify new Enterprise-only features and the benefits they bring.
               </div>
             </li>
             <li className="flex mb-2">
               <span className="list-disc mr-2">•</span>
               <div>
-                <strong>Migration Process:</strong> Reassure them the migration is automated, focusing on customer education.
+                <b>Migration Process</b>: Reassure them the migration is automated, focusing on customer education.
               </div>
             </li>
             <li className="flex mb-2">
               <span className="list-disc mr-2">•</span>
               <div>
-                <strong>Follow-up Documentation:</strong> Send detailed documentation for each product discussed.
+                <b>Follow-up Documentation</b>: Send detailed documentation for each product discussed.
               </div>
             </li>
           </ul>
           <br />
           <p className="text-sm text-black">
-            Please let us know if you need help with these steps!
+            Please let us know if you need help with these optimizations!
           </p>
           <br />
           <p className="text-sm text-black">
@@ -88,10 +91,4 @@ export default function About() {
       </main>
     </div>
   );
-}
-
-// About.css
-a {
-  color: blue;
-  text-decoration: underline;
 }
