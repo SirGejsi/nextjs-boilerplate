@@ -1,4 +1,3 @@
-
 import Image from "next/image";
 
 export default function About() {
@@ -48,25 +47,25 @@ export default function About() {
             <li className="flex mb-2">
               <span className="list-disc mr-2">•</span>
               <div>
-                Optimize Image Delivery: Leverage Vercel’s built-in Image Optimization to compress and serve images more efficiently, reducing transfer costs.
+                <b>Optimize Image Delivery</b>: Leverage Vercel’s built-in <a href="https://vercel.com/docs/image-optimization" target="_blank" rel="noopener noreferrer" className="text-blue-500 underline">Image Optimization</a> to compress and serve images more efficiently, reducing transfer costs.
               </div>
             </li>
             <li className="flex mb-2">
               <span className="list-disc mr-2">•</span>
               <div>
-                Reduce Payload Sizes: For Fast Origin Transfer, ensure server responses only include essential data. Implement caching mechanisms to reduce repeated requests.
+                <b>Reduce Payload Sizes</b>: For Fast Origin Transfer, ensure server responses only include essential data. Implement caching mechanisms to reduce repeated requests.
               </div>
             </li>
             <li className="flex mb-2">
               <span className="list-disc mr-2">•</span>
               <div>
-                Analyse Data Usage: Use Vercel’s monitoring tools to identify high traffic paths or projects. This will help spot and optimize the most resource-consuming endpoints.
+                <b>Analyse Data Usage</b>: Use Vercel’s monitoring tools to identify high traffic paths or projects. This will help spot and optimize the most resource-consuming endpoints.
               </div>
             </li>
           </ul>
           <br />
           <p className="text-sm text-black">
-            For more details, you can review Vercel’s guidance on Fast Data Transfer and Fast Origin Transfer.
+            For more details, you can review Vercel’s guidance on <a href="https://vercel.com/docs/pricing/networking#fast-data-transfer" target="_blank" rel="noopener noreferrer" className="text-blue-500 underline">Fast Data Transfer</a> and <a href="https://vercel.com/docs/pricing/networking#fast-origin-transfer" target="_blank" rel="noopener noreferrer" className="text-blue-500 underline">Fast Origin Transfer</a>.
           </p>
           <br />
           <p className="text-sm text-black">
