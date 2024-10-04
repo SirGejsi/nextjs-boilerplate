@@ -73,7 +73,7 @@ export default function About() {
           </ul>
           <br />
           <p className="text-sm text-black">
-            Would be happy to have a call discussing this further or for more detailed guidance, feel free to check out Vercel’s documentation.
+            Would be happy to have a call discussing this further or for more detailed guidance, feel free to check out <a href="https://vercel.com/docs/edge-network/redirects#best-practices-for-implementing-redirects" className="text-blue-500 underline">Vercel’s documentation</a>.
           </p>
           <br />
           <p className="text-sm text-black">
