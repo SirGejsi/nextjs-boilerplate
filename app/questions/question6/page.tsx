@@ -20,9 +20,9 @@ export default function About() {
       </header>
 
       <main className="flex flex-col items-center">
-        <h2 className="text-2xl font-bold mt-12">Question 5</h2>
+        <h2 className="text-2xl font-bold mt-12">Question 3</h2>
         <p className="text-lg mt-2 italic">
-          A customer is just getting started with Vercel and has questions about recommended options for third-party integrations for Monitoring or Logging. How would you respond to the customer?
+          A customer has a project on Vercel and they want to know about best practices when it comes to Fast Data Transfer and Fast Origin Transfer costs. Write a reply to the customer.
         </p>
 
         {/* Email Component */}
@@ -43,15 +43,24 @@ export default function About() {
             In general, here are a few strategies to help mitigate costs related to Fast Data Transfer and Fast Origin Transfer on Vercel:
           </p>
           <br />
-          <ul className="list-disc list-inside">
-            <li className="text-sm text-black">
-              Optimize Image Delivery: Leverage Vercel’s built-in Image Optimization to compress and serve images more efficiently, reducing transfer costs.
+          <ul className="list-none pl-5 text-sm text-black">
+            <li className="flex mb-2">
+              <span className="list-disc mr-2">•</span>
+              <div>
+                Optimize Image Delivery: Leverage Vercel’s built-in Image Optimization to compress and serve images more efficiently, reducing transfer costs.
+              </div>
             </li>
-            <li className="text-sm text-black">
-              Reduce Payload Sizes: For Fast Origin Transfer, ensure server responses only include essential data. Implement caching mechanisms to reduce repeated requests.
+            <li className="flex mb-2">
+              <span className="list-disc mr-2">•</span>
+              <div>
+                Reduce Payload Sizes: For Fast Origin Transfer, ensure server responses only include essential data. Implement caching mechanisms to reduce repeated requests.
+              </div>
             </li>
-            <li className="text-sm text-black">
-              Analyse Data Usage: Use Vercel’s monitoring tools to identify high traffic paths or projects. This will help spot and optimize the most resource-consuming endpoints.
+            <li className="flex mb-2">
+              <span className="list-disc mr-2">•</span>
+              <div>
+                Analyse Data Usage: Use Vercel’s monitoring tools to identify high traffic paths or projects. This will help spot and optimize the most resource-consuming endpoints.
+              </div>
             </li>
           </ul>
           <br />
