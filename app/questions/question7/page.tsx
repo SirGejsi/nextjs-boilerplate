@@ -20,9 +20,9 @@ export default function About() {
       </header>
 
       <main className="flex flex-col items-center">
-        <h2 className="text-2xl font-bold mt-12">Question 6</h2>
+        <h2 className="text-2xl font-bold mt-12">Question 7</h2>
         <p className="text-lg mt-2 italic">
-          A customer, new to Next.js and Vercel, asks about a high usage bill regarding fast origin transfer and fast data transfer. What would be the best way to help mitigate this?
+          What resources would you want to prepare to make sure that the CISO has everything they need to succeed as they migrate to the Enterprise version of the platform?
         </p>
 
         {/* Email Component */}
@@ -55,7 +55,7 @@ export default function About() {
             <li className="flex mb-2">
               <span className="list-disc mr-2">•</span>
               <div>
-                <b>Security Products</b>: Present Vercel’s security offerings (e.g., Secure Compute).
+                <b>Security Products</b>: Present Vercel’s security offerings (<a href="https://vercel.com/docs/security/secure-compute" target="_blank" rel="noopener noreferrer" className="text-blue-500 underline">Secure Compute</a>).
               </div>
             </li>
             <li className="flex mb-2">
