@@ -1,3 +1,4 @@
+
 import Image from "next/image";
 
 export default function About() {
@@ -32,50 +33,44 @@ export default function About() {
           </p>
           <br />
           <p className="text-sm text-black">
-            These are the steps I would take to ensure information is relayed to the CISO and to address any of their needs as they migrate to the Enterprise version of Vercel:
+            Thank you for reaching out!
+          </p>
+          <br />
+          <p className="text-sm text-black">
+            To better assist you, could you clarify which parts of your application consume the most data or processing?
+          </p>
+          <br />
+          <p className="text-sm text-black">
+            In general, here are a few strategies to help mitigate costs related to Fast Data Transfer and Fast Origin Transfer on Vercel:
           </p>
           <br />
           <ul className="list-none pl-5 text-sm text-black">
             <li className="flex mb-2">
               <span className="list-disc mr-2">•</span>
               <div>
-                Presentation Overview: Provide a presentation outlining key Enterprise features and a roadmap of their customer journey with Vercel.
+                Optimize Image Delivery: Leverage Vercel’s built-in Image Optimization to compress and serve images more efficiently, reducing transfer costs.
               </div>
             </li>
             <li className="flex mb-2">
               <span className="list-disc mr-2">•</span>
               <div>
-                Customer Support & Resources: Explain support from the CSM team and highlight available resources for a smooth transition.
+                Reduce Payload Sizes: For Fast Origin Transfer, ensure server responses only include essential data. Implement caching mechanisms to reduce repeated requests.
               </div>
             </li>
             <li className="flex mb-2">
               <span className="list-disc mr-2">•</span>
               <div>
-                Security Products: Present Vercel’s security offerings (e.g., Secure Compute).
-              </div>
-            </li>
-            <li className="flex mb-2">
-              <span className="list-disc mr-2">•</span>
-              <div>
-                Enterprise Features: Clarify new Enterprise-only features and the benefits they bring.
-              </div>
-            </li>
-            <li className="flex mb-2">
-              <span className="list-disc mr-2">•</span>
-              <div>
-                Migration Process: Reassure them the migration is automated, focusing on customer education.
-              </div>
-            </li>
-            <li className="flex mb-2">
-              <span className="list-disc mr-2">•</span>
-              <div>
-                Follow-up Documentation: Send detailed documentation for each product discussed.
+                Analyse Data Usage: Use Vercel’s monitoring tools to identify high traffic paths or projects. This will help spot and optimize the most resource-consuming endpoints.
               </div>
             </li>
           </ul>
           <br />
           <p className="text-sm text-black">
-            Please let us know if you need help with these steps!
+            For more details, you can review Vercel’s guidance on Fast Data Transfer and Fast Origin Transfer.
+          </p>
+          <br />
+          <p className="text-sm text-black">
+            Please let us know if you need help with these optimizations!
           </p>
           <br />
           <p className="text-sm text-black">
