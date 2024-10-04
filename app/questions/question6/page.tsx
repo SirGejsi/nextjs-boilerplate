@@ -20,9 +20,9 @@ export default function About() {
       </header>
 
       <main className="flex flex-col items-center">
-        <h2 className="text-2xl font-bold mt-12">Question 3</h2>
+        <h2 className="text-2xl font-bold mt-12">Question 6</h2>
         <p className="text-lg mt-2 italic">
-          A customer has a project on Vercel and they want to know about best practices when it comes to Fast Data Transfer and Fast Origin Transfer costs. Write a reply to the customer.
+          A customer, new to Next.js and Vercel, asks about a high usage bill regarding fast origin transfer and fast data transfer. What would be the best way to help mitigate this?
         </p>
 
         {/* Email Component */}
